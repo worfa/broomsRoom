@@ -13,7 +13,6 @@
         <module>gateway</module>
         <module>vacations</module>
         <module>idea</module>
-        <module>sequritys</module>
     </modules>
 
     <properties>
