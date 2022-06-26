@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: IDEA
+    name: IDEAS
   jpa:
     show-sql: true
     properties.hibernate.format_sql: true
@@ -11,3 +11,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/electricBroomsBD2
     username: postgres
     password: worfa
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8089/eureka

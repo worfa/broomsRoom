@@ -20,8 +20,8 @@ public class Vacation {
     @Column(name = "vacation_end", nullable = false)
     private LocalDate vacationEnd;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "sqn_user")
-    private User sqnUser;
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "sqn_user")
+//    private User sqnUser;
 
 }

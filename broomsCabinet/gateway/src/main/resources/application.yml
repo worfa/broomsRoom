@@ -34,23 +34,20 @@ spring:
       globalcors:
         add-to-simple-url-handler-mapping: true
       routes:
-        - id: idea
-          uri: http://localhost:8082
+        - id: IDEAS
+          uri: lb://IDEAS
           predicates:
             - Path=/ideas/**
           filters:
             - StripPrefix=1
-        - id: vacation
-          uri: http://localhost:8083
+        - id: VACATIONS
+          uri: lb://VACATIONS
           predicates:
             - Path=/vacations/**
           filters:
             - StripPrefix=1
-        - id: sequrity
-          uri: http://localhost:8084
-          predicates:
-            - Path=/users/**
-          filters:
-            - StripPrefix=1
 
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8089/eureka
