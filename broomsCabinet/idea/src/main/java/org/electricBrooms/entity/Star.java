@@ -12,10 +12,6 @@ public class Star {
     @Column(name = "sqn", nullable = false)
     private Long id;
 
-//    @ManyToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name = "sqn_user")
-//    private User sqnUser;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "sqn_idea")
     private Idea sqnIdea;
