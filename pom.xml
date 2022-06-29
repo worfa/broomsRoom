@@ -19,7 +19,7 @@
         <spring.cloud-version>2021.0.3</spring.cloud-version>
         <lombok-version>1.18.24</lombok-version>
 
-        <version.java>1.8</version.java>
+        <version.java>11</version.java>
 
         <maven.compiler.source>${version.java}</maven.compiler.source>
         <maven.compiler.target>${version.java}</maven.compiler.target>
