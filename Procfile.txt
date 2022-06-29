@@ -1,0 +1,4 @@
+web: java -jar broomsCabinet/gateway/target/gateway-1.0-SNAPSHOT.jar
+web: java -jar broomsCabinet/idea/target/idea-1.0-SNAPSHOT.jar
+web: java -jar broomsCabinet/vacations/target/vacations-1.0-SNAPSHOT.jar
+web: java -jar broomsCabinet/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar
